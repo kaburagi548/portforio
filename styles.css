@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  background-color: orange;
+  display: flex;
+}
+
+.maincontent {
+  display: flex;
+}
+
+.content {
+  background-color: skyblue;
+  flex: 1;
+  height: 500px;
+}
+
+.aside {
+  background-color: tomato;
+}
+
+.menu {
+  background-color: pink;
+  border-right: 5px solid gray;
+}
+
+.footer {
+  height: 100px;
+  background-color: green;
+}
+
+.topback {
+  text-decoration:  none;
+}
